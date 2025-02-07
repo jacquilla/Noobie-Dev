@@ -10,3 +10,4 @@ echo "Commit dibuat pada: $(date)" >> log.txt
 git add .
 git commit -m "Commit harian: $(date)"
 git push origin main
+chmod +x auto-commit.sh
